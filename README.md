@@ -1,28 +1,42 @@
-# Project Title
+# Stat 184 HW #4.4 repo
 
-Write a 1-2 sentences that quickly and clearly convey what your repo is for.
+This repo holds my reproducible data analysis report from HW #4.3 written in Quarto and rendered to PDF. It is allowing me to experiment with managing a repo and files.
 
 ## Overview
 
-Expand on those introductory sentences with a brief but informative description of your project's purpose and goals. This section should help visitors decide whether they should dig deeper into your repo/project.
-
-### Interesting Insight (Optional)
-
-This is optional but highly recommended. You'll include one interesting insight from your project as part of the README. This insight is most effective when you include a visual. Keep in mind that this visual must be included as an image file (e.g., JPG, PNG, etc.). You can export plots created with `{ggplot2}` by using the function `ggsave`.
+The report brings together work from across the course into one document
+that anyone can render from the files in this repo. It has five parts in the QMD:
+summary tables of diamond length, width, and depth, a plot of win
+percentage against three-point attempts in NCAA women's basketball, a Monte Carlo estimate of the area
+under the curve, a comparison of a plan-based GenAI prompt
+with a generic prompt for tidying and plotting calcium data, and a reflection
+on what I have learned in the course.
 
 ## Data Sources and Acknowledgements
 
-Be sure to list where you got any data used within the project. Be sure to acknowledge any one whose work or elements you're drawing upon.
+- diamonds: built into the {ggplot2} package 
+- team_box.csv: ESPN women's college basketball team box scores from the
+  {wehoop} package
+- calcium.csv: ulnar calcium measurements for 31 women over four years,
+  provided with the Stat 184 assignment
+- images/genericMeans.png and images/genericLines.png: generic GenAI
+  prompt results provided by the instructor
 
 ## Current Plan
 
-Provide some information about what you intend to doe with the project. You can additionally refer the visitor to your detailed plan document.
+The report is complete and matches the PDF I submitted for HW #4.3. Any future
+changes will be made on the dev branch and merged into main through a PR.
+See `PLAN.md` for my full plans for the report and for this repo.
 
 ## Repo Structure
 
-Use this section to explain the structure of your repo. This should help visitors quickly figure out where they should look to find certain elements. Further, you can use this space to highlight and briefly explain important/key files in the repo.
+- `HW4.3_Reproducible_Data_Analysis.qmd`: the Quarto source for the report
+- `HW4.3_Reproducible_Data_Analysis.pdf`: the rendered report I submitted
+- `team_box.csv` and `calcium.csv`: data files the QMD reads in
+- `images/`: the two PNG files the QMD displays
+- `PLAN.md`: goals and steps for the report and the repo
 
 
 ## Authors
 
-Give information about who are the authors of the project and how people can get in touch if they have questions.
+Joe Everett, Penn State University. Questions can be sent to jbe5346@psu.edu.
