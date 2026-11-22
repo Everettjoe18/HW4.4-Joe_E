@@ -27,6 +27,7 @@ execute:
 #| label: setupPackages
 
 # Load packages ----
+# Coding style: BOAST Style
 library(tidyverse)
 library(knitr)
 library(kableExtra)
